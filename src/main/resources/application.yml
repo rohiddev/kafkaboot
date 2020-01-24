@@ -11,6 +11,6 @@ spring:
         key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
         value-deserializer: org.apache.kafka.common.serialization.StringDeserializer
      producer:
-        bootstrap-servers: localhost:9092
+        bootstrap-servers: b-2.kafa.2q1x5o.c4.kafka.us-west-1.amazonaws.com:9094,b-1.kafa.2q1x5o.c4.kafka.us-west-1.amazonaws.com:9094
         key-serializer: org.apache.kafka.common.serialization.StringSerializer
         value-serializer: org.apache.kafka.common.serialization.StringSerializer
